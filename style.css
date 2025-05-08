@@ -1,0 +1,152 @@
+body{
+    font-size: 18px;
+    background-color: hsl(0, 0%, 89%);
+    font-family: "DM Sans", serif;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 10vh);
+    grid-gap: 3%;
+    height: 100vh;
+
+    /*margin: 5%;
+    box-shadow:0px 8px 20px rgba(0,0,0,0.15);
+    padding: 5% 10%;*/
+    margin:5% 10%;
+
+}
+.item{
+    border-radius: 10px;
+}
+img{
+    max-width: 100%;/*pogledati kako radi*/
+}
+.purple100{
+    background-color: hsl(254, 88%, 90%);
+}
+.purple500{
+    background-color: hsl(254, 88%, 60%);
+}
+.yellow100{
+    background-color: hsl(31, 66%, 93%);
+}
+.yellow500{
+    background-color: hsl(39, 100%, 71%);
+}
+.white{
+    background-color: white;
+}
+.createAnd{
+    grid-column: 1;
+    grid-row: 1/5;
+    padding: 20% 5%;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+.socialMedia{
+    grid-column: 2/4;
+    grid-row: 1/4;
+    color: white;
+    padding: 5%;
+
+    text-align: center;
+
+}
+.writeYour{
+    padding: 5%;
+    grid-column: 1;
+    grid-row: 5/9;
+    text-align: center;
+    font-size: 2rem;
+}
+.writeYourImg{
+    pading:5% 20%;
+    margin-top: 10%;
+    align-content: center;
+    width: 70%;
+    height: auto;
+}
+.manageMultiple{
+    grid-column: 2;
+    grid-row: 4/7;
+    font-size: 2rem;
+}
+.maintain{
+
+    grid-column: 3;
+    grid-row: span 3;
+    font-size: 2rem;
+    padding: 5% 0% 5% 5%;
+
+}
+.maintainImg{
+
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+}
+.fasterAudience{
+    grid-column: 2;
+    grid-row: span 2;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    align-items: center;
+   }
+.fasterAudienceImg{
+    width:60%;
+    height: auto;
+    padding: 5%;
+    align-content: center;
+
+}
+.number56{
+    align-content: center;
+    font-size: 3rem;
+
+}
+.over4{
+    font-size: 1rem;
+
+}
+.socialText{
+    font-size: 4rem;
+
+}
+
+.schedule{
+    grid-column: 4;
+    grid-row: 1/7;
+    padding: 5%;
+    text-align: center;
+}
+.scheduleText{
+    font-size: 2rem;
+}
+.grow{
+    display: flex;
+    grid-column: 3/5;
+    grid-row:7/9;
+    padding: 5%;
+
+}
+.growImg{
+    height: 100%;
+    display: inline-block;
+}
+.growText{
+    font-size: 2.5rem;
+    align-self: center;
+    vertical-align: middle;
+    color:white;
+    padding-left: 5%;
+}
+
+.textCreate{
+    margin-bottom: 20px;
+
+}
+
